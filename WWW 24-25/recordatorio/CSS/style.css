@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;    
+}
+
+
+header {
+    background-image: url("../IMG/hobbit_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 50px;
+    clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
+  }
+
+.titulo{
+    color: white;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:500px ;
+    margin-top: 200px;
+}
+
+.pegi{
+    background-color:rgb(199, 199, 9) ;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 20%;
+    position: absolute;
+    margin-left:835px ;
+    margin-top: -50px;
+}
+
+.subtitulo{
+    color: rgb(197, 193, 193);
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:500px;
+    padding-bottom: 50px;
+}
+
+.likes{
+    color: white;
+    font-size: 25px;
+
+}
+
+.corazon{
+    margin-left: 500px;
+    
+
+}
+.texto{
+    color: rgb(170, 165, 165);
+    font-size: 30px;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+
+.cover{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -300px;
+    height: 400px;
+    width: 300px;
+
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: auto auto auto;
+margin-left: 500px;
+margin-right: 900px;
+margin-top: 20px;
+
+}
+
+.grid-container2{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-left: 150px;
+    margin-right: 1300px;
+    margin-top: -100px;
+    gap: 20px;
+
+}
+
+.boton2{
+    position: absolute;
+    margin-top: -50px;
+    margin-left:180px ;
+    font-size: 20px;
+    background-color: rgb(253, 249, 249);
+    color: grey;
+    border-radius: 20%;
+}
+
+.boton{
+    font-size: 20px;
+    background-color: rgb(253, 249, 249);
+    color: grey;
+    border-radius: 20%;
+    border-color: white;
+}
