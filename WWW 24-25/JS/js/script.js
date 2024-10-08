@@ -10,11 +10,20 @@ function afegirjugador(){
 }
 
 function nextplayer(){
-    let np =llistajugadors[0];
     
-    document.getElementById("ajn").innerHTML = `${np}`
+    document.getElementById("ajn").innerHTML = llistajugadors[0];
 
-    llistajugadors.pop(np);
-     
-    
+   
+
+    let jugadoractual = llistajugadors.shift();
+
+    llistajugadors.push(jugadoractual);
+
+    document.getElementById("jugadors").innerHTML= " ";
+
+    for(let i=0;i<llistajugadors.length;i++){
+    document.getElementById("jugadors").innerHTML += `${llistajugadors[i]} <br>`;
+
+}
+
 }
