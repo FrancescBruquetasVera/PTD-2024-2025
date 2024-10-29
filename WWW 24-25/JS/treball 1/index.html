@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio lista</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <h1 class="titulo">A QUI TOCA ARA?</h1>
+
+        <div class="p1">
+    <h1 class="nj">NOU JUGADOR</h1>
+    <form action="">
+        <input class="form1" type="text" id="camp_nom" placeholder="El teu nom" value=""><br>
+        <button onclick="afegirjugador()" type="button" class="afegir">AFEGIR</button>
+    </form>
+</div>
+    <div class="p2">
+    <h1 class="aj">ARA JUGA</h1>
+        <p id="ajn"></p>
+        <button onclick="nextplayer()" type="button" class="seguent">Seguent</button>
+    </div>
+
+    <div class="p3">
+    <h1 class="ldj">LLISTAT DE JUGADORS</h1>
+        <p id="jugadors"></p>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
