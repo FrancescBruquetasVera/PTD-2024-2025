@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjat</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body onload="inicializar()">
+
+    
+    
+    <h1 class="joc">EL JOC DEL PENJAT</h1>
+    <img id="imagen" class="image" src="IMG/A0.png" alt="">
+    <form id="formulario" action="">
+        <input class="form1" type="text" id="letra" placeholder="" value=""><br>
+    </form>
+    <p id="palabra"></p>
+    <button id="boton" class="envia" onclick="enviar()">ENVIA</button>
+
+    <h1 class="lletres">LLETRES</h1>
+    <p id="llistalletres"></p>
+
+    <div id="winner">
+        <p id="frasencert"></p>
+        <button onClick="window.location.reload();" class="tj">Tornar a jugar</button>
+    
+        </div>
+        <div id="loser">
+            <p id="fraserror"></p>
+            <button onClick="window.location.reload();" class="tj">Tornar a jugar</button>
+        
+        </div>
+    
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
