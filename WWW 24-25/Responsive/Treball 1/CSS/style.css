@@ -1,0 +1,52 @@
+*{  
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*F12 ctrl+shift+m para ver la vista desde el mobil*/
+/* INFORMACIÓN PREVIA DEL PROGRAMA */
+
+:root{
+    --mobile_width: 375px;
+    --desktop_width:1440px;
+    --dark_cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very_dark_blue: hsl(212, 21%, 14%);
+    --Dark_grayish_blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --paragraph_size: 14px;
+    
+}
+
+.montserrat-500{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+  }
+  .montserrat-700{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+  }
+
+  .fraunces-700 {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
+  }
+
+  body{
+    background-color:tan ;
+
+
+  }
