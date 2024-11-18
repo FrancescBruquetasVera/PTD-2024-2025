@@ -22,6 +22,8 @@
     
 }
 
+
+
 .montserrat-500{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -35,7 +37,7 @@
     font-style: normal;
   }
 
-  .fraunces-700 {
+.fraunces-700 {
     font-family: "Fraunces", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -45,8 +47,102 @@
       "WONK" 0;
   }
 
-  body{
-    background-color:tan ;
+body{
+  background-color:var( --Cream) ;
+
+}
+
+.flexcontainer{
+
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.img{  
+  height: 350px;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  
+}
+.texto{
+  background-color:var( --White);
+  width: 100%;
+  height: 400px;
+}
+
+.perfume{
+  font-size: 15px;
+  color: var( --Dark_grayish_blue);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.title{
+  font-size: 35px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.text{
+  font-size: var(--paragraph_size);
+  margin-bottom: 20px;
+  color: var(--Dark_grayish_blue);
+  padding-left: 15px;
+}
+
+.price1{
+  color: var(--dark_cyan);
+  font-size: 35px;
+  padding-left: 15px;
+}
+
+.price2{
+  color: var(--Dark_grayish_blue);
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 150px;
+  text-decoration: line-through;
+  padding-left: 15px;
+}
+
+.adt{
+  background-color: var(--dark_cyan);
+  color: white;
+  font-size: 15px;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+@media (min-width: 1000px) {
+  .flexcontainer {
+    flex-direction: row;
+    width: 800px;
+    
+   margin-top: 100px;
+  }
+  .img{  
+   height: 450px;
+
+  }
+  .texto{
+    height: 450px;
+
 
 
   }
+}
