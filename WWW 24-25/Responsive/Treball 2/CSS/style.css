@@ -60,7 +60,7 @@
     width: 370px;
     margin-left: auto;
     margin-right: auto;
-    
+   
   }
 
   .gridcontainer .grid1{
@@ -68,6 +68,7 @@
     
     border-top: 2px solid var(--Cyan);
     margin-bottom:15px ;
+   
     
   }
   .gridcontainer .grid2{
@@ -75,14 +76,14 @@
     
     border-top: 2px solid var(--Red);
     margin-bottom:15px ;
-   
+  
   }
   .gridcontainer .grid3{
     background-color: white;
     
     border-top: 2px solid var(--Orange);
     margin-bottom:15px ;
-  
+    
   }
   .gridcontainer .grid4{
     background-color: white;
@@ -123,10 +124,13 @@
   .grid2,
   .grid3,
   .grid4 {
+
   width: 325px;
   height: 250px;
   padding-right: 50px;
   padding-left: 30px;
+  transition: 0.9s
+
   }
   .grid1{
     grid-area:grid1;
@@ -160,6 +164,15 @@
     margin-top: 20px;
 
 }
+
+.grid1:hover, 
+  .grid2:hover,
+  .grid3:hover,
+  .grid4:hover{
+  transform:translate(10px,5px) ;
+ 
+  
+  }
 
   }
 

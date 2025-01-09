@@ -1,7 +1,7 @@
 //******* * INICIALITZACIO DE VARIABLES *************/
     
     
-    const llistaparaules=["latigo","sandia", "gas","chocolate","pollo", "raton","benja","piedra","susana","marc","pelea","josebenjamin","pedro","tutorial","califato","sara","trabajo","bobesponja","gato","zapato","tarro","testarudo","terreno","rubia","rodri","tetera","huevo","castor","torero","tariq","santo","niki","marina","sergio","jordi"];
+    const llistaparaules=["latigo","sandia", "gas","chocolate","pollo", "raton","benja","piedra","susana","marc","pelea","josebenjamin","pedro","tutoria","califato","sara","trabajo","bobesponja","gato","zapato","tarro","testarudo","terreno","rubia","rodri","tetera","huevo","castor","torero","tariq","santo","niki","marina","sergio","jordi"];
 
 //como elegir un elemento aleatorio de un vector (después)/
     let paraulasecreta;
