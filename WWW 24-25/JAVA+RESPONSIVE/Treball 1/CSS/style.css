@@ -1,0 +1,221 @@
+:root{
+
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+    --mobile_width: 375px;
+    --desktop_width:1440px;
+    --Font-size: 13px;
+
+}
+
+body{
+    background-color: var(--Light-Grayish-Blue);
+
+
+}
+.manrope-medium {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .manrope-bold {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.flexcontainer{
+    margin-top: 20px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img{  
+    height: 250px;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+  }
+.text{
+    width: 100%;
+    background-color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+.title{
+  color: var(--Very-Dark-Grayish-Blue);
+  margin-left: 20px;
+  margin-right: 10px;
+  }
+
+.maintext{
+    color: var(--Desaturated-Dark-Blue);
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+.person{
+    margin-top: 40px;
+    color: var(--Very-Dark-Grayish-Blue);
+    font-size: 14px;
+    margin-left: 60px;
+}
+
+.date{
+    margin-top: -10px;
+    margin-left: 60px;
+    font-size: 13px;
+    color: var(--Grayish-Blue);
+
+}
+.img2{
+    position: absolute;
+    clip-path: circle(50% at 50% 50%);
+    width: 30px;
+    height: 30px;
+    margin-left: 18px;
+    margin-top: 5px;
+
+
+}
+.share{
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 250px;
+  width: 30px;
+  height: 30px;
+}
+
+.information{
+  display: block;
+}
+
+.logo{
+ 
+  background-color:black;
+  display: none;
+  flex-direction: row;
+  width: 320px;
+  height: 70px;
+  margin-left: 5px;
+
+}
+
+.logo1{
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+  .next{
+    margin-top: 20px;
+    color: white;
+    display: inline-block;
+    margin-left:  20px; ;
+
+}
+
+
+.share2{
+display: none;
+
+}
+
+@media (min-width: 1000px) {
+
+  .share{
+    display: none;
+  }
+
+  .share2{
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 350px;
+  width: 30px;
+  height: 30px;
+  
+
+  }
+
+  .flexcontainer {
+    flex-direction: row;
+   margin-top: 200px;
+   width: 800px;
+   
+  }
+
+  .text{
+    height: 300px;
+    width: 60%;
+    border-radius: none;
+  }
+
+  .img{
+    height: 300px;
+    width: 40%;
+    border-top-right-radius:0;
+    border-bottom-left-radius:20px ;
+  }
+
+  .title{
+  font-size: 23px;
+
+  }
+
+  .maintext{
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .img2{
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .person{
+    margin-top: 10px;
+  margin-left: 70px;
+    font-size: 16px;
+  }
+
+  .date{
+    margin-left: 70px;    
+
+  }
+
+
+  .logo{
+  display: block;
+    position: absolute;
+    margin-left: 215px;
+    margin-top: -150px;
+    width: 270px;
+    height: 60px;
+    justify-content: center;
+    padding-bottom: 15px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 60% 86%, 55% 100%, 50% 86%, 0 87%);
+  }
+
+  .next{
+  padding-top: -10px;
+
+
+  }
+  
+
+}

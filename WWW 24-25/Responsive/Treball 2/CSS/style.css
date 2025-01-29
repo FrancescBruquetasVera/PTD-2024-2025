@@ -66,7 +66,7 @@
   .gridcontainer .grid1{
     background-color: white;
     
-    border-top: 2px solid var(--Cyan);
+    border-top: 4px solid var(--Cyan);
     margin-bottom:15px ;
    
     
@@ -74,21 +74,21 @@
   .gridcontainer .grid2{
     background-color: white;
     
-    border-top: 2px solid var(--Red);
+    border-top: 4px solid var(--Red);
     margin-bottom:15px ;
   
   }
   .gridcontainer .grid3{
     background-color: white;
     
-    border-top: 2px solid var(--Orange);
+    border-top: 4px solid var(--Orange);
     margin-bottom:15px ;
     
   }
   .gridcontainer .grid4{
     background-color: white;
    
-    border-top: 2px solid var(--Blue);
+    border-top: 4px solid var(--Blue);
     margin-bottom:15px ;
     
   }
