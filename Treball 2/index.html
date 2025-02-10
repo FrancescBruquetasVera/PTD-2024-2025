@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body onload="inicializar()">
+  
+  <div id="allcontainer" class="allcontainer">
+    
+    <div class="fleximage">
+      <img class="image1" src="assets/images/illustration-sign-up-mobile.svg" alt="">
+      <img class="image2" src="assets/images/illustration-sign-up-desktop.svg" alt="">
+    </div>  
+    
+    <div class="text">
+      <p class="updated , roboto-bold">Stay updated!</p>  
+      <p class="join2 , roboto-regular">Join 60,000+ product managers receiving monthly updates on:</p>
+      <img class="icon" src="assets/images/icon-list.svg" alt="">
+      <p class="join , roboto-regular"> Product discovery and building what matters</p>
+      <img class="icon" src="assets/images/icon-list.svg" alt="">
+      <p class="join , roboto-regular">Measuring to ensure updates are a success</p>
+      <img class="icon" src="assets/images/icon-list.svg" alt="">
+      <p class="join , roboto-regular">And much more!</p>
+      
+      <form  action="">
+
+          <label class="roboto-bold name"  for="nombre">Email address </label>
+          <label id="valid" class="valid roboto-bold" for="valid">Valid email required</label>
+          <br>
+          <br>
+          <input id="form" class="form roboto-regular" type="text" placeholder="email@company.com" value="">
+          <br>
+          <br>
+        </form>
+        
+        <button id="sub" onclick="subscribe()" class="subscribe roboto-bold">Subscribe to monthly newsletter</button>
+
+    </div>
+  </div>
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+  <div id="succes" class="succes">
+    <img class="icon2" src="assets/images/icon-success.svg" alt="">
+  <p class="thanks , roboto-bold">Thanks for subscribing!</p>
+
+  <p id="confirmation" class="confirmation , roboto-regular"></p>
+
+  <button onclick="restart()" class="dismiss roboto-bold">Dismiss message</button>
+
+  </div>  
+
+  <script src="./js/script.js"></script>
+
+</body>
+</html>
